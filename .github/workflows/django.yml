@@ -10,5 +10,5 @@ jobs:
       run:
         sudo apt update
         sudo apt -y install python3 python3-pip
-        pip3 install --user django
+        pip3 install Django
         python3 manage.py test
